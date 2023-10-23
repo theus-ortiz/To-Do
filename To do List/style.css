@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+#task {
+    padding: 10px;
+    width: 60%;
+}
+
+#add-task {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+}
+li button {
+    padding: 3px 7px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+    margin-left: 10px;
+    transition: 1s;
+}
+li button:hover {
+    background-color: #cc0000;
+}
